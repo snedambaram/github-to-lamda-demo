@@ -1,10 +1,16 @@
 import json
 
 def lambda_handler(event,context):
-    d= {'statusCode': 200,
-        'body': json.dumps('Hello world from Git Hub to Lambda 4')
-       }
-    df = json.loads(d)
-    print(df)
+     x = {
+        "name": "Sreeni",
+        "message": "Hello World from Github",
+        "city": "Atlanta"
+        }
+
+        # convert into JSON:
+     y = json.dumps(x)
+
+        # the result is a JSON string:
+     print(y)
 
   
