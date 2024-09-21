@@ -12,5 +12,5 @@
         "lambda:DeleteFunctionConcurrency",
         "lambda:PublishVersion"
     ],
-    "Resource": "arn:aws:lambda:us-east-1:403247042758:function:github-to-lambda-demo"
+    "Resource": "arn:aws:lambda:us-east-2:403247042758:function:github-to-lambda-demo"
 }
